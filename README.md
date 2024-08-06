@@ -4,6 +4,8 @@ This is a clone of [bol.com](https://www.bol.com/) that replicates the design an
 The project was developed for educational purposes and does not pursue any negative or financial goals towards the company.
 The author is not responsible for the use of this project for any illegal purposes.
 
+DEMO: [https://bol-clone.vercel.app/](https://bol-clone.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:
