@@ -35,7 +35,7 @@ const GoodsCard = (props: GoodsCardProps) => {
         in prijs verlaagd
       </div>
       <div className="text-[#696977] text-[12px] leading-[14px] mt-4">
-        Adviesprijs <span className="line-through">{price + 10}</span>
+        Adviesprijs <span className="line-through">{(price + 10).toFixed(2)}</span>
       </div>
     </article>
   );
