@@ -1,6 +1,7 @@
 import BrandOffersPanel from "@/components/MainPage/BrandOffersPanel/BrandOffersPanel";
 import Categories from "@/components/MainPage/Categories/Categories";
 import GiftsPanel from "@/components/MainPage/GiftsPanel/GiftsPanel";
+import NewArrivals from "@/components/MainPage/NewArrivals/NewArrivals";
 import PromoBanner from "@/components/MainPage/PromoBanner/PromoBanner";
 import PromoOffers from "@/components/MainPage/PromoOffers/PromoOffers";
 import ShopImages from "@/components/MainPage/ShopImages/ShopImages";
@@ -26,7 +27,10 @@ export default function Home() {
       <div className="mt-12">
         <BrandOffersPanel />
       </div>
-      <div className="mt-24">
+      <div className="mt-8">
+        <NewArrivals />
+      </div>
+      <div className="mt-12">
         <GiftsPanel />
       </div>
       <div className="mt-12">
