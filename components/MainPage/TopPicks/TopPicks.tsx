@@ -1,13 +1,49 @@
 import React from "react";
 import GoodsCard from "@/components/GoodsCard/GoodsCard";
 
-const TopDeals = () => {
+const TopPicks = () => {
   return (
     <section>
       <h2 className="text-[32px] font-extralight">
-        <span className="font-extrabold">Topdeals</span>
+        Bekijk onze <span className="font-extrabold">Topkeuzes</span>
       </h2>
       <div className="mt-6 overflow-x-scroll flex gap-6 no-scrollbar">
+        <GoodsCard
+          name="T-Shirt Jack & Jones"
+          image="/images/topdeals/8.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
+        <GoodsCard
+          name="Lenor"
+          image="/images/topdeals/9.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
+        <GoodsCard
+          name="Horses"
+          image="/images/topdeals/10.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
+        <GoodsCard
+          name="Sport en btw"
+          image="/images/topdeals/11.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
+        <GoodsCard
+          name="Flamingo"
+          image="/images/topdeals/12.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
+        <GoodsCard
+          name="Chatten met Napoleon"
+          image="/images/topdeals/7.jpg"
+          price={parseFloat((Math.random() * 100).toFixed(2))}
+        />
+
         <GoodsCard
           name="L'Oréal Paris Brow Color wenkbrauwverf - getinte wenkbrauwen tot wel 5 weken* - resultaten na 5 min. - 3.0 Dark Brunette - 30 ml"
           image="/images/topdeals/1.jpg"
@@ -43,45 +79,9 @@ const TopDeals = () => {
           image="/images/topdeals/6.jpg"
           price={parseFloat((Math.random() * 100).toFixed(2))}
         />
-
-        <GoodsCard
-          name="Chatten met Napoleon"
-          image="/images/topdeals/7.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
-
-        <GoodsCard
-          name="T-Shirt Jack & Jones"
-          image="/images/topdeals/8.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
-
-        <GoodsCard
-          name="Lenor"
-          image="/images/topdeals/9.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
-
-        <GoodsCard
-          name="Horses"
-          image="/images/topdeals/10.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
-
-        <GoodsCard
-          name="Sport en btw"
-          image="/images/topdeals/11.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
-
-        <GoodsCard
-          name="Flamingo"
-          image="/images/topdeals/12.jpg"
-          price={parseFloat((Math.random() * 100).toFixed(2))}
-        />
       </div>
     </section>
   );
 };
 
-export default TopDeals;
+export default TopPicks;

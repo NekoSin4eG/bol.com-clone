@@ -5,6 +5,7 @@ import PromoBanner from "@/components/MainPage/PromoBanner/PromoBanner";
 import PromoOffers from "@/components/MainPage/PromoOffers/PromoOffers";
 import ShopImages from "@/components/MainPage/ShopImages/ShopImages";
 import TopDeals from "@/components/MainPage/TopDeals/TopDeals";
+import TopPicks from "@/components/MainPage/TopPicks/TopPicks";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
       </div>
       <div className="mt-20">
         <Categories />
+      </div>
+      <div className="mt-12">
+        <TopPicks />
       </div>
       <div className="mt-12">
         <BrandOffersPanel />
