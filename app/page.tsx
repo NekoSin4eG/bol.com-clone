@@ -4,6 +4,7 @@ import GiftsPanel from "@/components/MainPage/GiftsPanel/GiftsPanel";
 import PromoBanner from "@/components/MainPage/PromoBanner/PromoBanner";
 import PromoOffers from "@/components/MainPage/PromoOffers/PromoOffers";
 import ShopImages from "@/components/MainPage/ShopImages/ShopImages";
+import TopDeals from "@/components/MainPage/TopDeals/TopDeals";
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
       <div className="mt-8">
         <PromoOffers />
       </div>
-      <div className="mt-24">
+      <div className="mt-8">
+        <TopDeals />
+      </div>
+      <div className="mt-20">
         <Categories />
       </div>
       <div className="mt-12">
