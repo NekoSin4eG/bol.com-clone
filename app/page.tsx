@@ -73,7 +73,7 @@ export default function Home() {
         <div className="div">
           <div className="h-[83px] bg-[#9EBDF4] px-6 pt-6">
             <span className="text-[#0000a4] text-lg font-extrabold">
-              Snelle SSD's
+              Snelle SSD&apos;s
             </span>
             <br />
             <span className="text-[#0000a4] text-base font-light">
